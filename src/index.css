@@ -1,0 +1,31 @@
+@import "tailwindcss";
+
+@font-face {
+  font-family: Archivo-bold;
+  src: url(./assets/fonts/Archivo-Bold.ttf);
+}
+@font-face {
+  font-family: Archivo-reg;
+  src: url(./assets/fonts/Archivo-Regular.ttf);
+}
+@font-face {
+  font-family: Archivo-bold;
+  src: url(./assets/fonts/Archivo-Bold.ttf);
+}
+
+@theme {
+  /* Responsive Design */
+  --breakpoint-ssm: 375px;
+  --breakpoint-sm: 640px;
+  --breakpoint-md: 768px;
+  --breakpoint-lg: 1024px;
+
+  /* fonts */
+  --font-Archivo-bold: "Archivo-bold", "serif";
+  --font-Archivo-reg: "Archivo-reg", "serif";
+}
+
+input {
+  color: #1d1d1d;
+  border: 4px solid;
+}
